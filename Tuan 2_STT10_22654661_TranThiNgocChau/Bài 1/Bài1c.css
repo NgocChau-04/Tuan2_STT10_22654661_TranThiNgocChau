@@ -1,0 +1,141 @@
+*{box-sizing: border-box;}
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
+
+}
+.header{
+    background-color: #f9eae8;
+    position: relative;
+}
+.header h1{
+    text-align: center;
+    padding: 20px;
+    color: #d16a6a;
+    font-weight: bold;
+    font-size: 40px;
+}
+.nav {
+    background-color: #f4c3c3; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav ul{
+    display:flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.nav a {
+    color: purple; 
+    margin: 0 5px; 
+    text-decoration: none; 
+    font-weight: bold;
+    text-transform: uppercase; 
+    list-style: none;
+}
+.content{
+    display: flex;
+}
+.sidebar{
+    flex-basis: 20%;
+
+}
+.sidebar ul{
+    list-style:none;
+    padding: 10px;
+   
+}
+.sidebar a{
+    text-decoration: none;
+    background-color: #d16a6a;
+    color: white;
+    border-radius: 15px;
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    text-align:center;
+}
+.meeting{
+    border-radius: 100%;
+    
+}
+.maincontent{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+
+.content h1{
+    background-color:#f5f5dc;
+    color:#a62c2b;
+}
+.v{
+    color: #d16a6a;
+    font-weight: bold;
+    text-decoration:underline
+}
+.backtotop{
+   color: #b03030;
+}
+.form-row{
+    display:flex;
+    gap:10px
+}
+.form-row input{
+    width: 100%; /* Mỗi input sẽ chia đều không gian với nhau */
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.country-select {
+    margin-top: 10px;
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-right: 25px;
+}
+.form-group textarea{
+    margin-top: 10px;
+    width: 100%;
+    padding: 20px;
+}
+.form-actions input{
+    margin-top: 10px;
+}
+.events{
+    flex-basis: 30%;
+    background-color: black;
+    margin:10px;
+}
+.events h2{
+    color: white;
+}
+.events h3{
+    color: white;
+}
+.imgevents{
+    text-align: center;
+}
+.para{
+    color: white;
+    text-align: center;
+}
+.footer{
+    background-color: #d16a6a;
+}
+.footer h3{
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+}
+.ev{
+    text-align: center;
+}
+    

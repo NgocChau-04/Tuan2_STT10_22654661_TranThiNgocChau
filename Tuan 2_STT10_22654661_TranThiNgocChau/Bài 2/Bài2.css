@@ -1,0 +1,121 @@
+.container{
+    margin: 0px;
+    padding: 0px;
+    width: 960px;
+    box-sizing: border-box;
+}
+header{
+    position: relative;
+    background-image: url("../Bài\ 2/Hinh/background.png" );
+    margin-bottom: 20px;
+
+}
+
+.logo header{
+    position: absolute;
+
+}
+header h1{
+    position: absolute;
+    left: 120px;
+    top: 10px;
+    color: white;
+}
+header h3{
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    color: white;
+}
+nav{
+    position: absolute;
+    background-color:  #afada9;
+    display: flex;
+    width: 100%;
+
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    color:black;
+}
+.content{
+    display: flex;
+    margin: 10px;
+ 
+}
+.section{
+    flex-basis: 70%;
+}
+.article1{
+    display:flex;
+}
+.article1 h3{
+    display: flex;
+    margin-top: 10px;
+}
+.article2{
+    display:flex;
+}
+.aside{
+    flex-basis: 30%;
+}
+footer{
+    background-color: #afada9;
+    color: white;
+}
+
+.ct1 {
+    margin-top: 60px;
+}
+.ct1 h3{
+    color: #d78eab;
+    margin-top: 5px;
+}
+.ct2 h3{
+    color: #d78eab;
+    margin-top: 5px;
+}
+.ct1 p{
+    color: #afada9;
+}
+.ct2 p{
+    color: #afada9;
+}
+
+.img1{
+    margin-top: 40px;
+    
+    
+}
+.aside{
+    border-left: #afada9 solid 1px;
+    padding-left: 10px;
+    
+}
+.aside1{
+    margin-top: 75px;
+}
+.aside1 h2{
+    color: #d78eab;
+}
+.aside1 h4{
+    color: #d78eab;
+}
+.aside2{
+    margin-top: 20px;
+}
+.aside2 h2{
+    color: #d78eab;
+    
+}
+.aside2 p{
+    color: #afada9;
+}
